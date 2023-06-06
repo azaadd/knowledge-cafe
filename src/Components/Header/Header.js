@@ -5,8 +5,17 @@ import profileImage from '../../images/profile.jpg';
 
 const Header = () => {
     return (
-        <div className='header'>
-            <img src={profileImage} alt="" />
+        <div className='header-wrap'>
+            <div className='header'>
+                <div>
+                    <h2>Knowledge Cafe</h2> 
+                </div>
+                <div>
+                    <img src={profileImage} alt="" />
+                </div>
+            </div>
+            <hr />
+            
         </div>
     );
 };

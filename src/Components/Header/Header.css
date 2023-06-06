@@ -1,5 +1,18 @@
+.header-wrap hr{
+    border: -1px solid gray;
+}
 .header{
+    margin-top: 15px;
     height: 72px;
-    padding: 5px 5px;
+    padding: 5px 20px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.header h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.header img{
+    border-radius: 30px;
 }
