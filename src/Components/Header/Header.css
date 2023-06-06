@@ -1,3 +1,5 @@
 .header{
     height: 72px;
+    padding: 5px 5px;
+    align-items: center;
 }

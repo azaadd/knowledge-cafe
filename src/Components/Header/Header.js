@@ -1,11 +1,12 @@
 import React from 'react';
 import './Header.css';
+import profileImage from '../../images/profile.jpg';
 
 
 const Header = () => {
     return (
-        <div>
-            
+        <div className='header'>
+            <img src={profileImage} alt="" />
         </div>
     );
 };
