@@ -9,6 +9,8 @@
 
 .blog-info-container{
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .spent-time{

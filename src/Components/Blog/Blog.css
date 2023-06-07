@@ -40,4 +40,13 @@
     color: #6047EC;
     margin-bottom: 25px;
 }
+.mark-read:hover{
+    cursor: pointer;
+}
+.fa-icon{
+    color: #8d8a8a;
+}
+.fa-icon:hover{
+    cursor: pointer;
+}
 
