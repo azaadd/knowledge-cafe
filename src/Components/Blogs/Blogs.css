@@ -9,16 +9,27 @@
 
 .blog-info-container{
     text-align: center;
-    position: sticky;
-    top: 0;
+    
 }
 
 .spent-time{
     border: 1px solid #6047EC;
     border-radius: 7px;
     background-color: #efedfd;
+    position: sticky;
+    top: 0;
 }
 .bookmark-blog{
     background-color: #f3f3f3;
     border-radius: 7px;
+    padding-top: 8px;
+    margin-top: 18px;
+    position: sticky;
+    top: 80px;
+}
+
+.blogs-title{
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
 }

@@ -23,6 +23,11 @@ const Blogs = () => {
         setTime(newTime);
     }
 
+    let total = 0;
+    for ( const blogs of time){
+        total = total + blogs.min;
+    }
+
     return (
         <div className='blog-container-wrap'>
             <div className='blog-container'>
@@ -40,10 +45,11 @@ const Blogs = () => {
 
                 <div className='blog-info-container'>
                     <div className='spent-time'>
-                        <h4>Spent time on read : {time.length}</h4>
+                        <h4>Spent time on read : {total}</h4>
                     </div>
                     <div className='bookmark-blog'>
                         <h3>Bookmarked Blogs : {mark.length}</h3>
+                        <p className='blogs-title'></p>
                     </div>
                 </div>
 
