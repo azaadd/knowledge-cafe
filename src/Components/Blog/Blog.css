@@ -1,0 +1,43 @@
+.blog-item{
+    margin-bottom: 35px;
+}
+.blog-img{
+    background-color: #c1b8f5;
+    width: 800px;
+    height: 405px;
+    border-radius: 8px;
+    border: 1px solid #ecebeb;
+}
+.person-img{
+    background-color: #c3cfcf;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.blog-item hr{
+    border: 1px solid #e4e6e7;
+}
+
+.author{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    line-height: 5px;
+}
+.author-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.time{
+    margin-right: 10px;
+}
+ 
+.mark-read{
+    text-decoration: underline;
+    color: #6047EC;
+    margin-bottom: 25px;
+}
+

@@ -1,52 +1,47 @@
 [
     {
         "id": "647ef857de111d6c77fd4d7e",
-        "blogImg": "https://drive.google.com/file/d/1jKHq1EE1vq4wMD0I9PaX9DUHhXXG5IRN/view?usp=sharing",
-        "personImg": "https://drive.google.com/file/d/1dV8RXPKl29s9O8tkF3a7lIj54p_W70F8/view?usp=sharing",
+        "blogImg": "https://www.freepik.com/free-vector/programming-background-collage_34089181.htm",
+        "personImg": "https://www.freepik.com/free-vector/close-up-portrait-of-curly-handsome-european-male_8757475.htm",
         "authorName": "Mr. Raju",
-        "publishDate": "14 Mar",
+        "publishDate": "14 Mar(2023)",
         "min": 9,
         "title": "How to get your first job as a self-taught programmer",
-        "hashtag": "#beginners #programming"
+        "hashtag": "#beginners #programming",
+        "markRead": "Mark as read"
     },
     {
         "id": "647ef85776dd80828ee9438b",
-        "blogImg": "https://drive.google.com/file/d/1WyCUjtmCr4PqqG451B5J1Sjse54QIVSX/view?usp=sharing",
-        "personImg": "https://drive.google.com/file/d/1hdmGVjyc2Ye_naAP6KLQDEe7dT2Mi1iV/view?usp=sharing",
+        "blogImg": "https://www.freepik.com/free-vector/programming-background-collage_34089154.htm",
+        "personImg": "https://www.freepik.com/free-vector/portrait-of-white-man-isolated_3199590.htm",
         "authorName": "Mokter hossen",
-        "publishDate": "14 Mar",
+        "publishDate": "05 Apr(2021)",
         "min": 5,
         "title": "What does a Software Developer do?",
-        "hashtag": "#beginners #developer"
+        "hashtag": "#beginners #developer",
+        "markRead": "Mark as read"
     },
     {
         "id": "647ef857d1ac4ca7a53bbf3b",
-        "blogImg": "https://drive.google.com/file/d/1OYcX4NpvkAOPPVRQh5V0jU0AOEGf3zeE/view?usp=sharing",
-        "personImg": "https://drive.google.com/file/d/15wEYG8L_vmjQnWL1Uzp03jkZ-jrunpQ9/view?usp=sharing",
+        "blogImg": "https://www.freepik.com/free-vector/hand-drawn-flat-design-devops-illustration_25726540.htm",
+        "personImg": "https://www.freepik.com/free-vector/beautiful-woman-on-street_1302625.htm",
         "authorName": "Sumi Queen",
-        "publishDate": "14 Mar",
+        "publishDate": "11 Aug(2022)",
         "min": 10,
         "title": "How to Start A Career in Web Development?",
-        "hashtag": "#frontend #developer"
+        "hashtag": "#frontend #developer",
+        "markRead": "Mark as read"
     },
     {
         "id": "647ef857d343e69509b45c1f",
-        "blogImg": "https://drive.google.com/file/d/1rxTC3H2-p3K-nkWt4f8Rxr8h4cVwhoJ_/view?usp=sharing",
-        "personImg": "https://drive.google.com/file/d/1dvTNu-sF03BKfJZwMkeqyrLruGgk6AvK/view?usp=sharing",
+        "blogImg": "https://www.freepik.com/free-vector/career-work-job-employment-recruitment-concept_17112503.htm",
+        "personImg": "https://www.freepik.com/free-vector/close-up-portrait-of-young-bearded-man-in-white-shirt-and-jacket-posing-on-camera-with-broad-smile-isolated-over-gray_6514170.htm",
         "authorName": "Mr. Khan",
-        "publishDate": "14 Mar",
+        "publishDate": "16 Dec(2015)",
         "min": 7,
         "title": "Front End vs Back End Developer",
-        "hashtag": "#beginners #programmer"
-    },
-    {
-        "id": "647ef857fe7b1014bffac774",
-        "blogImg": "https://drive.google.com/file/d/1EawHOCq2Icu_3VdwrEA4A9VVwM2fJjm1/view?usp=sharing",
-        "personImg": "https://drive.google.com/file/d/1BQPprhm1UfFyqz6uhBMw8bEcO5pqNxeo/view?usp=sharing",
-        "authorName": "Mr. Akash",
-        "publishDate": "14 Mar",
-        "min": 11,
-        "title": "Web Developer Entry Level Jobs",
-        "hashtag": "#backend #developer"
-    }
+        "hashtag": "#beginners #programmer",
+        "markRead": "Mark as read"
+     }
 ]
+    
