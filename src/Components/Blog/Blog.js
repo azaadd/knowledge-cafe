@@ -5,12 +5,11 @@ import './Blog.css';
 
 
 const Blog = (props) => {
-
+    
     const { blogImg, personImg, authorName, publishDate, min, title, hashtag, markRead } = props.blog;
-
-    const handleAddToBookMark = () =>{
-        console.log('blog name')
-    }
+    const handleAddToBookMark = props.handleAddToBookMark;
+    const handleAddToMarkRead = props.handleAddToMarkRead;
+    
     
     return (
         <div className='blog-item'>
@@ -25,13 +24,13 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <p className='time'>
-                    {min} min read  <FontAwesomeIcon onClick={handleAddToBookMark} className='fa-icon' icon= {faBookmark} />
+                    {min} min read  <FontAwesomeIcon onClick={() => handleAddToBookMark(props.blog)} className='fa-icon' icon= {faBookmark} /> 
                     </p>
             </div>
 
             <h2>{title}</h2>
             <p>{hashtag}</p>
-            <p className='mark-read'>{markRead}</p>
+            <p onClick={() => handleAddToMarkRead(props.blog)} className='mark-read'>{markRead}</p>
 
             <hr />
         </div>
