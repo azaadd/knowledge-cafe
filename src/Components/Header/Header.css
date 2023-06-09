@@ -1,3 +1,6 @@
+.header-wrap{
+    width: 100%;
+}
 .header-wrap hr{
     border: 1px solid rgb(223, 219, 219);
 }

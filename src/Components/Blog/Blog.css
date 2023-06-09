@@ -50,3 +50,11 @@
     cursor: pointer;
 }
 
+
+/* media query for mobile device */
+@media only screen and (max-width: 576px){
+    .blog-item .blog-img{
+        width: 100%;
+    }
+  
+}
