@@ -1,0 +1,10 @@
+.question{
+    background-color: aquamarine;
+    padding: 7px;
+    border-radius: 3px;
+}
+.answer{
+    text-decoration: underline;
+    text-decoration-color: #1cfc54;
+    
+}

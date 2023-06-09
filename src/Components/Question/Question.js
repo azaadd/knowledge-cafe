@@ -7,9 +7,9 @@ const Question = () => {
             
             <div className='question-wrap'>
                 <h3 className='question'>1. Difference between props and state.</h3>
-                <p className='answer'>Answer: props</p>
+                <p className='answer'>Answer: <strong>props</strong></p>
                 <p>Props allows passing data from one component to other components. props is an object which stores the value of attributes of a tag and work similar to the HTML attributes.Props are immutable.</p><br />
-                <p className='answer'>Answer: state</p>
+                <p className='answer'>Answer: <strong>state</strong></p>
                 <p>The state object is where you store property values that belong to the component.When the state object changes, the component re-renders. State is mutable.</p><br />
 
                 <h3 className='question'>2. How to work useState?</h3>
