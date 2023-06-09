@@ -2,42 +2,60 @@ import React, { useEffect, useState } from 'react';
 import './Blogs.css';
 import Blog from '../Blog/Blog';
 
+
 const Blogs = () => {
 
-    const [blogs, setBlogs] = useState([]);
-    const [mark, setMark] = useState([]);
-    const [time, setTime] = useState([]);
+    const [blogsData, setBlogsData] = useState([]);
+    const [bookMark, setBookMark] = useState([]);
+    const [markRead, setMarkRead] = useState([]);
 
-    useEffect( () => {
+
+    useEffect(() => {
         fetch('data.json')
-        .then(res => res.json())
-        .then(data => setBlogs(data))
+            .then(res => res.json())
+            .then(data => setBlogsData(data))
     }, []);
 
-    const handleAddToBookMark = (blog) =>{
-        const newMark = [...mark, blog];
-        setMark(newMark);
-    }
-    const handleAddToMarkRead = (blog) =>{
-        const newTime = [...time, blog];
-        setTime(newTime);
+
+
+    const handleAddToBookMark = (blog) => {
+        const newBookMark = [...bookMark, blog];
+        setBookMark(newBookMark);
+        console.log(blog.title)
     }
 
+    const handleAddToMarkRead = (blog) => {
+        const newMarkRead = [...markRead, blog];
+        setMarkRead(newMarkRead);
+    }
+
+
+
     let total = 0;
-    for ( const blogs of time){
+    for (const blogs of markRead) {
         total = total + blogs.min;
     }
+    
+    let blogTitle = " ";
+    for (const blogs of bookMark) {
+        blogTitle =blogTitle + blogs.title;
+    }
+
+
 
     return (
         <div className='blog-container-wrap'>
             <div className='blog-container'>
                 <div className='blog-data-container'>
                     {
-                        blogs.map(blog => <Blog 
-                        key={blog.id}
-                        blog={blog}
-                        handleAddToBookMark={handleAddToBookMark}
-                        handleAddToMarkRead={handleAddToMarkRead}
+                        blogsData.map(blog => <Blog
+                            key={blog.id}
+                            blog={blog}
+
+                            handleAddToBookMark={handleAddToBookMark}
+                            handleAddToMarkRead={handleAddToMarkRead}
+
+
                         ></Blog>)
                     }
                 </div>
@@ -48,8 +66,12 @@ const Blogs = () => {
                         <h4>Spent time on read : {total}</h4>
                     </div>
                     <div className='bookmark-blog'>
-                        <h3>Bookmarked Blogs : {mark.length}</h3>
-                        <p className='blogs-title'></p>
+                        <h3>Bookmarked Blogs : {bookMark.length}</h3>
+                        <div className='blogs-title'>
+
+                            <p>{blogTitle}</p>
+                        </div>
+
                     </div>
                 </div>
 

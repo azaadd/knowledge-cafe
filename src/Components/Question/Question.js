@@ -1,0 +1,48 @@
+import React from 'react';
+import './Question.css';
+
+const Question = () => {
+    return (
+        <div>
+            
+            <div className='question-wrap'>
+                <h3 className='question'>1. Difference between props and state.</h3>
+                <p className='answer'>Answer: props</p>
+                <p>Props allows passing data from one component to other components. props is an object which stores the value of attributes of a tag and work similar to the HTML attributes.Props are immutable.</p><br />
+                <p className='answer'>Answer: state</p>
+                <p>The state object is where you store property values that belong to the component.When the state object changes, the component re-renders. State is mutable.</p><br />
+
+                <h3 className='question'>2. How to work useState?</h3>
+                <p className='answer'>Answer:</p>
+                <p>UseState is a React Hook that lets we add a state variable to our component. <br />const [state, setState] = useState(initialState);<br /> <br />We initialize our state by calling useState in our function component. <br /> <strong>useState accepts an initial state and returns two values:</strong>  <br /> <br /> i) state: The current state. <br />
+                ii) setState: A function that updates the state.</p><br />
+                <h3 className='question'>3. What does work useEffect without data load?</h3>
+                <p className='answer'>Answer:</p>
+                <p>The <strong>useEffect</strong> Hook allows to perform side effects in our components. <strong>Some examples</strong> of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. The second argument is optional.</p><br />
+                <h3 className='question'>4. How does react work?</h3>
+                <p className='answer'>Answer:</p>
+                <p> React creates a VIRTUAL DOM in memory. Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM.</p><br />
+                
+
+            </div>
+        </div>
+    );
+};
+
+export default Question;
+            <div className='question-wrap'>
+                <h3 className='question'>1. Difference between props and state.</h3>
+                <p className='answer'>Answer:</p>
+                <p></p>
+                <h3 className='question'>2. How to work useState?.</h3>
+                <p className='answer'>Answer:</p>
+                <p></p>
+                <h3 className='question'>3. What does work useEffect without data load?.</h3>
+                <p className='answer'>Answer:</p>
+                <p></p>
+                <h3 className='question'>4. How does react work?.</h3>
+                <p className='answer'>Answer:</p>
+                <p></p>
+                
+
+            </div>

@@ -33,6 +33,7 @@ const Blog = (props) => {
             <p onClick={() => handleAddToMarkRead(props.blog)} className='mark-read'>{markRead}</p>
 
             <hr />
+
         </div>
 
     );
